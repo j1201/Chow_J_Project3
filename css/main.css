@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+p {
+  color: #fff;
+  line-height: 100px;
+  background: #000;
+  text-align: center;
+  margin: 0;
+}
+
+div,p,body,header,footer,section,article,nav {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #313131;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: #666;
+}
+
+.hidden {
+  display: none;
+}
+
+.siteContainer {
+  margin: 0 auto;
+  width: 1920px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#mainHeader {
+  display: flex;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #DDD;
+  justify-content: center;
+}
+
+#logo {
+  width: 240px;
+  margin-right: 80px;
+}
+
+.mainNav {
+  width: 240px;
+  margin-right: 80px;
+}
+
+.mainNav-first {
+  width: 240px;
+  margin-left: 20px;
+  margin-right: 80px;
+}
+
+.mainNav-last {
+  width: 240px;
+  margin-right: 20px;
+}
+
+#intro {
+  margin-top: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #DDD;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#introImage {
+  width: 925px;
+  margin-bottom: 40px;
+}
+
+#introImage p {
+  line-height: 645px;
+}
+
+#introText {
+  width: 1122px;
+  margin-bottom: 40px;
+}
+
+#introText p {
+  line-height: 179px;
+}
+
+#readMore {
+  width: 240px;
+  margin-bottom: 40px;
+}
+
+#banner {
+  margin-top: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #DDD;
+  padding-bottom: 40px;
+}
+
+#bannerText {
+  width: 1920px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#bannerText p {
+  line-height: 125px;
+}
+
+#productInfo {
+  margin-top: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #DDD;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productHead {
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.productSec {
+  display: inline-flex;
+  gap: 255px;
+}
+
+.productDesc {
+  width: 340px;
+}
+
+.productDesc p {
+  line-height: 702px;
+}
+
+#review {
+  margin-top: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #DDD;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviewHead {
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.reviewSec {
+  display: inline-flex;
+  gap: 255px;
+  align-items: center;
+}
+
+.arrowLeft, .arrowRight{
+  width: 90px;
+}
+
+.reviewText {
+  width: 1122px;
+}
+
+.reviewText p {
+  line-height: 179px;
+}
+
+#subscription {
+  margin-top: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #DDD;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.subscriptionText {
+  width: 1364px;
+}
+
+.subscriptionText p {
+  line-height: 552px;
+}
+
+#mainFooter {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerNav {
+  width: 242px;
+}
+
+#copyRight, #socialMedia {
+  width: 242px;
+}
+
+/* About Page */
+
+#about {
+  margin-top: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #DDD;
+  padding-bottom: 40px;
+}
+
+#aboutSec-one {
+  display: flex;
+  justify-content: center;
+}
+
+#aboutImage, .aboutText {
+  width: 789px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+#aboutImage p, .aboutText p {
+  line-height: 623px;
+}
+
+#aboutSec-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#aboutHead {
+  width: 690px;
+  margin-bottom: 40px;
+}
+
+#aboutHead p {
+  line-height: 151px;
+}
+
+.aboutBody{
+  width: 1622px;
+  margin-bottom: 40px;
+}
+
+.aboutBody p {
+  line-height: 454px;
+}
+
+.shopNow{
+  width: 262px;
+}
+
+#shopNow p {
+  line-height: 104px;
+}
